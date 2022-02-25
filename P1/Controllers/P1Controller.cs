@@ -21,7 +21,7 @@ namespace P1API.Controllers
         private readonly DataContext _context;
         public P1Controller(DataContext context)
         {
-            _context = context;
+            _context = context;//--
 
         }
 
